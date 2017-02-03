@@ -1,7 +1,11 @@
-header {
+* {
+	color: #fff;
+	font-family: 'Calligraffitti', cursive;
+}
+
+header, a, footer, #hello{
 	font-family: 'Calligraffitti', cursive;
 	color: #fff;
-	font-size: 26px;
 }
 
 body {
@@ -12,9 +16,41 @@ body {
 	background-size: cover;
 }
 
-a {
+img {
+	width: 275px;
+	height: 275px;
+}
+
+#hello{
+	text-align: center;
+	margin: 0;
+	font-size: 20px;
+}
+
+nav a {
 	color: #111;
 	background-color: white;
-	font-family: 'Calligraffitti', cursive;
+}
+
+.sample {
+	width: 150px;
+	height: 150px;
+	display: inline;
+}
+
+#btn {
+	border-left: 50%;
+}
+
+footer, a{
 	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+}
+
+footer {
+	text-align: right;
+	color: #111;
 }
