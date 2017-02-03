@@ -1,0 +1,20 @@
+header {
+	font-family: 'Calligraffitti', cursive;
+	color: #fff;
+	font-size: 26px;
+}
+
+body {
+	background-image: url("imgs/bck.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+a {
+	color: #111;
+	background-color: white;
+	font-family: 'Calligraffitti', cursive;
+	font-size: 16px;
+}
