@@ -17,8 +17,11 @@ body {
 }
 
 img {
-	width: 275px;
-	height: 275px;
+	width: 264px;
+	height: 190px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
 }
 
 #hello{
@@ -54,3 +57,4 @@ footer {
 	text-align: right;
 	color: #111;
 }
+
