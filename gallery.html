@@ -1,69 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<meta name="Author" content="Julius Robinson">
 	<title>Melanin Woman Photography</title>
-	<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-md-12 col-lg-12">
-				<div class="page-header">
-					<header>
-						<h1>Melanin Woman Photography</h1>
-					</header>
-					<ul class="nav nav-tabs">
-						<li role="presentation"><a href="index.html">Home</a></li>
-						<li role="presentation"><a href="about.html">About</a></li>
-						<li role="presentation"><a href="contact.html">Contact</a></li>
-					</ul>
+		<header>
+			<h1>Melanin Woman Photograhpy</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">Pricing</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<hr>
+		<main>
+			<div class="row">
+			<div class="column">
+				<img src="imgs/pic1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">			
+			</div>
+			<div class="column">
+				<img src="imgs/pic10.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic12.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic13.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic14.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic15.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic16.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic17.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic18.jpg" onclick="openModal();currentSlide(18)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic19.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic20.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic21.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic22.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="imgs/pic23.jpg" onclick="openModal();currentSlide(23)" class="hover-shadow">
+			</div>
+			</div>
+			
+			<div id="myModal" class="modal">
+				<span class="close cursos" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic1.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic2.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic3.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic4.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic5.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic6.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic7.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic8.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic9.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic10.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic11.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic12.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic13.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic14.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic15.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic16.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic17.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+							<img style="width: 100%" src="imgs/pic18.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic19.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+							<img style="width: 100%" src="imgs/pic20.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic21.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+						<img style="width: 100%" src="imgs/pic22.jpg" alt="Photography">
+					</div>
+					<div class="mySlides">
+					<img style="width: 100%" src="imgs/pic23.jpg" alt="Photography">	
+					</div>
+					
+					
+					    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 				</div>
 			</div>
-		</div>
-		<h2 id="hello">Welcome!</h2>
-		<div class="row">
-		<div class="col-xs-12 col-md-12 col-lg-12">
-			<div class="gallery" align="center">
-				<img src="imgs/pic1.jpg" alt="Photography">
-				<img src="imgs/pic2.jpg" alt="Photography">
-				<img src="imgs/pic3.jpg" alt="Photography">
-				<img src="imgs/pic4.jpg" alt="Photography">
-				<img src="imgs/pic5.jpg" alt="Photography">
-				<img src="imgs/pic6.jpg" alt="Photography">
-				<img src="imgs/pic7.jpg" alt="Photography">
-				<img src="imgs/pic8.jpg" alt="Photography">
-				<img src="imgs/pic9.jpg" alt="Photography">
-				<img src="imgs/pic10.jpg" alt="Photography">
-				<img src="imgs/pic11.jpg" alt="Photography">
-				<img src="imgs/pic12.jpg" alt="Photography">
-				<img src="imgs/pic13.jpg" alt="Photography">
-				<img src="imgs/pic14.jpg" alt="Photography">
-				<img src="imgs/pic15.jpg" alt="Photography">
-				<img src="imgs/pic16.jpg" alt="Photography">
-				<img src="imgs/pic17.jpg" alt="Photography">
-				<img src="imgs/pic18.jpg" alt="Photography">
-				<img src="imgs/pic19.jpg" alt="Photography">
-				<img src="imgs/pic20.jpg" alt="Photography">
-				<img src="imgs/pic21.jpg" alt="Photography">
-				<img src="imgs/pic22.jpg" alt="Photography">
-				<img src="imgs/pic23.jpg" alt="Photography">
-			</div>
-		</div>
+		</main>
 		<hr>
-		<div class="row">
-			<div class="col-xs-12 col-md-12 col-lg-12">
-				<footer>
-					<p>&copy; Melanin Woman Photography 2016-2017</p>
-				</footer>
-			</div>
-		</div>
+		<footer>
+			<h4>Melanin Woman Photography  &copy; 2016-2017</h4>
+		</footer>
 	</div>
-	<script src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
