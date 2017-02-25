@@ -46,14 +46,15 @@ button{
 	color: #fff; 
 	border-radius: 25px; 
 	width: 50%; 
-	margin-left: 25%;
+	margin-left: 20%;
 	background-color: darkblue;
 	border: lightblue;
 	height: 40px;
 }
 
 .gallery {
-	margin-left: 5%;
+	margin-left: 10%;
+	img{padding:5px;}
 }
 
 .gallery-row-1, .gallery-row-2 {
@@ -79,7 +80,7 @@ footer {
 /*	Images */
 
 img {
-	width: 100%;
+	width: 20%;
 	height: 250px;
 }
 
@@ -110,6 +111,7 @@ img.hover-shadow {
 	width: 80%;
 	height: 80%;
 	max-width: 700px;
+	img{height: 500px;}
 }
 
 .close {
@@ -126,20 +128,7 @@ img.hover-shadow {
 
 /* Slideshow  */ 
 
-.row > .column {
-	padding: 0 8px;
-}
 
-.row:after {
-	content: "";
-	display: table;
-	clear:both;
-}
-
-.column {
-	float: left;
-	width: 25%;
-}
 
 .prev , .next {
 	cursor: pointer;
@@ -157,6 +146,7 @@ img.hover-shadow {
 	-webkit-user-select: none;
 }
 
+.prev {left: 0;}
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
@@ -170,17 +160,18 @@ img.hover-shadow {
 		font-size: 22px; color: $passion;}
 		p {width: 100%;}
 	img{
-		width: 100%; 
+		width: 45%; 
 		height: 150px;  
 		margin: 10px;
 		border-radius: 15px;}
+		.gallery {img{padding:0;}}
 	.gallery-row-1, .gallery-row-2 {
 	width: 100%;
-	height: 200px;}
+	}
 	ul{li{a{color: $passion;}}}}
 
 @media (max-width: 525px) {
-	img{width: 100%; margin: 0;}
+	img{width: 40%; margin: 10px;}
 	.gallery {margin:0;
 		.gallery-row-1, .gallery-row-2 {
 	width: 100%;
